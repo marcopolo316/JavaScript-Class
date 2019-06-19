@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>A sample page</title>
+  <script src="helper.js"></script>
+</head>
+<body>
+  <div id="main">
+
+  </div>
+  <script>
+    let birthyear = prompt("what year where you born");
+    let today = new Date();
+    var year = new Date (birthyear);
+    var age = today.getFullYear() - (year.getFullYear() + 1);
+    echo(age);
+  </script>
+</body>
+</html>
